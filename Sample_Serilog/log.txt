@@ -1,0 +1,1 @@
+{"Timestamp":"2022-08-18T13:01:50.4881879+04:30","Level":"Warning","MessageTemplate":"Moslem loged in to app","Properties":{"C3":"Your ...","C2":"your custom value"}}

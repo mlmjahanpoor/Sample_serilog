@@ -7,17 +7,10 @@ namespace Sample_Serilog.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
         [HttpGet]
         public IActionResult Get()
         {
-            Log.Logger.ForContext("C2", "your custom value").ForContext("C3", "Your ...").Information("Moslem loged in to app");
+            Log.Logger.ForContext("C2", "your custom value").ForContext("C3", "Your ...").Warning("Moslem loged in to app");
             return Ok("Result is success!");
         }
     }
