@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OUbniRwiBk8ODJqwRz3Tv2KQnrcoK3scRdXmPIQ2wzA=",
+  "Source": "Sample_Serilog",
+  "BasePath": "_content/Sample_Serilog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
